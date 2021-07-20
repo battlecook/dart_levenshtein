@@ -1,4 +1,4 @@
-name: levenshtein 
+name: dart_levenshtein 
 description: Multithreaded Levenshtein distance implementation in Dart
 version: 1.0.0
 homepage: https://github.com/Makepad-fr/dart_levenshtein
