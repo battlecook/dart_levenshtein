@@ -14,6 +14,8 @@ scopes:
       description: All changes related to the funding
     - name: config
       description: All changes related to the configuration files
+    - name: test
+      description: All changes related to tests
 conventions:
     - name: build
       description: Changes that affect the build system or external dependencies
