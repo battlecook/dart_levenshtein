@@ -1,0 +1,37 @@
+configfilepath: /Users/kaanyagci/Documents/makepad/levenstein/.concom.yml
+path: /Users/kaanyagci/Documents/makepad/levenstein
+version: ""
+scopes:
+    - name: linter
+      description: All changes related to the linter
+    - name: src
+      description: All changes related to the source code
+    - name: example
+      description: All changes related to the examples
+    - name: readme
+      description: All changes related to README
+    - name: funding
+      description: All changes related to the funding
+    - name: config
+      description: All changes related to the configuration files
+conventions:
+    - name: build
+      description: Changes that affect the build system or external dependencies
+    - name: ci
+      description: Changes to our CI configuration files and scripts
+    - name: docs
+      description: Documentation only changes
+    - name: feat
+      description: A new feature
+    - name: revert
+      description: 'If the commit reverts a previous commit, it should begin with revert: , followed by the header of the reverted commit. In the body it should say: This reverts commit <hash>., where the hash is the SHA of the commit being reverted.'
+    - name: fix
+      description: A bug fix
+    - name: perf
+      description: A code change that improves performance
+    - name: refactor
+      description: A code change that neither fixes a bug nor adds a feature
+    - name: style
+      description: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+    - name: test
+      description: Adding missing tests or correcting existing tests
