@@ -1,4 +1,4 @@
-import 'package:dart_levenshtein/dart_levenshtein.dart';
+import 'package:levenshtein_distance/levenshtein_distance.dart';
 import 'package:test/test.dart';
 
 void main() {
