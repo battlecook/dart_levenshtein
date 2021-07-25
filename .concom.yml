@@ -16,6 +16,8 @@ scopes:
       description: All changes related to the configuration files
     - name: test
       description: All changes related to tests
+    - name: version
+      description: All changes related to the library version
 conventions:
     - name: build
       description: Changes that affect the build system or external dependencies
