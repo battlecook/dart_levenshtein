@@ -1,4 +1,4 @@
-import 'package:levenshtein_distance/levenshtein_distance.dart';
+import 'package:levenshtein_distance/dart_levenshtein.dart';
 
 void main() async {
   // As String extension
