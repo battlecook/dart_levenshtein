@@ -1,5 +1,5 @@
-name: levenshtein_distance 
-description: Levenshtein distance implementation in Dart
+name: dart_levenshtein 
+description: Levenshtein distance implementation in Dart. The levenshtein distance can be invoked as a function or as a String extension.
 version: 1.0.0
 homepage: https://github.com/Makepad-fr/dart_levenshtein
 issue_tracker: https://github.com/Makepad-fr/dart_levenshtein/issues
