@@ -14,6 +14,7 @@ void main() async {
   print(await 'kitten'.levenshteinDistance('sitten'));
   // As a function
   print(await levenshteinDistance('kitten', 'sitten'));
+}
 ```
 
 
