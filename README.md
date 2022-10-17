@@ -13,7 +13,7 @@ void main() async {
   // As String extension
   print(await 'kitten'.levenshteinDistance('sitten'));
   // As a function
-  print(await 
+  print(await levenshteinDistance('kitten', 'sitten'));
 ```
 
 
